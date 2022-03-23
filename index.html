@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Veterinaria Cuki</title>
+  </head>
+  <body>
+    <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+    <!--========================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <span class="fs-3 fw-bold text-light">Veterinaria Cuki</span>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contactos">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+     <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="img/slide1.jpg" class="d-block w-100" alt="slide1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide2.jpg" class="d-block w-100" alt="slide2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide3.jpg" class="d-block w-100" alt="slide3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <!--========================================================== -->
+                        <!-- SOBRE NOSOTROS-->
+    <!--========================================================== -->
+    <h1 class="text-success mx-4 my-4" id="nosotros">Sobre Nosotros...</h1>
+    <section class="mx-auto my-auto w-75 text-center">
+        <p class="fs-4">En la Veterinaria <span class="text-success"> Cuki</span> contamos con un equipo de 
+          trabajo altamente idóneo para atender a nuestros mejores amigos. Conjugamos las mejores 
+          instalaciones para la atención y el cuidado de sus <span class="text-success">mascotas</span>, con los profesionales más capacitados 
+          en la asistencia veterinaria. La salud de nuestras mascotas es tan importante como la de cualquier 
+          integrante de la familia.:
+        </p>
+        <p><span class="fw-bold">Atención las 24 hs., los 365 días del año. </span></p>
+    </section>
+    
+
+    <!--========================================================== -->
+                        <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+    <h1 class="text-success mx-4 my-5" id="servicios">Nuestros Servicios:</h1>
+
+    <section class="container-fluid" >
+        <div class="row w-75 mx-auto  servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/consultorio-veterinario.jpg" alt="desarrollo"
+                width="180" height="160">
+                <div>
+                    <p class="mx-2">3 Consultorios de atención simultáneas para revisiones generales, diagnóstico y controles</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/mostrador.jpg.webp" alt="consultas"
+                width="180" height="160">
+                <div>                   
+                    <p class="mx-2">Consultas y vacunación a domicilio, el mismo servicio con la comodidad de no trasladar a la mascota hacia nuestra clínica</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./img/Cardiologia.jpg.webp" alt="cardiologia"
+                width="180" height="160">
+                <div>                   
+                    <p class="mx-2">Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en Cardiología Servicio de odontología, limpieza de dientes por ultrasonido.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--========================================================== -->
+                        <!-- SECCION CONTACTOS-->
+    <!--========================================================== -->
+
+    <section id="seccion-contactos" class="border-bottom border-secondary
+     border-2">
+      <div id="bg-contacto">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 1440 320"><path fill="#103d23"  
+        fill-opacity="1" d="M0,128L120,138.7C240,149,480,171,720,154.7C960,139,1200,85,1320,58.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+      </div>
+
+      <div class="container" id="contenedor-formulari">
+        <div id="titulo-formulario" class="text-center mb-4">
+          <h2 class="my-4">Contactenos</h2>
+          <p class="fs-5">Estamos para ayudarlo</p>
+        </div>
+        <form action="">
+          <div class="mb-3">
+            <input type="email" 
+            class="form-control" 
+            id="email" 
+            placeholder="nombre@ejemplo.com">
+          </div>
+          <div class="mb-3">
+            <input type="text" 
+            class="form-control" 
+            id="nombre" 
+            placeholder="Fabio Escudero" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" 
+            id="exampleFormControlTextarea1" 
+            rows="3" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <div class="mb-3">
+            <button type="button" class="btn btn-success w-100 fs-5">Enviar mensaje</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+     <!--========================================================== -->
+                        <!-- PIE DE LA PAGINA-->
+    <!--========================================================== -->
+
+    <footer class="w-100 d-flex align-items justify-content-center">
+      <p class="fs-5 px-3 pt-3">Veterinaria Cuki - Luis Agote 250 Bº Mirador      . Todos los derechos Reservados 2022</p>
+      <div id="iconos">
+        <a href="www.facebook.com"><i class="bi bi-facebook"></i></a>
+        <a href="www.whatsapp.com"><i class="bi bi-whatsapp"></i></a>
+        <a href="www.instagram.com"><i class="bi bi-instagram"></i></a>
+      </div>
+    </footer>
+
+    
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
